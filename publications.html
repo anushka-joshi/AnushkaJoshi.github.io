@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Publications | Anushka Joshi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f5f5f5;
+    color:#111;
+    padding:60px 8%;
+}
+
+/* PAGE TITLE */
+
+.page-title{
+    font-size:21px;
+    font-weight:700;
+    margin-bottom:70px;
+}
+
+/* PUBLICATION SECTION */
+
+.pub-section{
+    position:relative;
+    padding:40px 0 70px 0;
+    border-top:1px solid #dddddd;
+}
+
+/* YEAR */
+
+.pub-year{
+    position:absolute;
+    top:-10px;
+    right:20px;
+    font-size:32px;
+    font-weight:300;
+    color:#d8d8d8;
+}
+
+/* ROW */
+
+.pub-row{
+    display:flex;
+    align-items:flex-start;
+    gap:40px;
+    margin-top:40px;
+}
+
+/* LEFT IMAGE */
+
+.pub-image{
+    width:220px;
+    flex-shrink:0;
+}
+
+.pub-image img{
+    width:100%;
+    border-radius:12px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.12);
+}
+
+/* RIGHT CONTENT */
+
+.pub-content{
+    flex:1;
+    max-width:950px;
+}
+
+.pub-title{
+    font-size:12px;
+    font-weight:500;
+    line-height:1.5;
+    margin-bottom:10px;
+}
+
+.pub-authors{
+    font-size:11px;
+    color:#444;
+    margin-bottom:10px;
+}
+
+.pub-venue{
+    font-size:11px;
+    font-style:italic;
+    line-height:1.6;
+    margin-bottom:25px;
+}
+
+/* BUTTONS */
+
+.pub-buttons{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+}
+
+.pub-buttons a{
+    text-decoration:none;
+    border:1px solid #222;
+    color:#111;
+    padding:10px 22px;
+    border-radius:6px;
+    font-size:11px;
+    transition:0.3s;
+}
+
+.pub-buttons a:hover{
+    background:#111;
+    color:white;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+    .pub-row{
+        flex-direction:column;
+    }
+
+    .pub-image{
+        width:100%;
+        max-width:320px;
+    }
+
+    .pub-year{
+        position:relative;
+        top:auto;
+        right:auto;
+        margin-bottom:20px;
+        font-size:32px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="page-title">
+    Publications
+</div>
+
+<!-- 2026 -->
+
+<div class="pub-section">
+
+    <div class="pub-year">2026</div>
+
+    <div class="pub-row">
+
+        <div class="pub-image">
+            <img src="paper1.jpg" alt="Publication Image">
+        </div>
+
+        <div class="pub-content">
+
+            <div class="pub-title">
+                Scalable multiscale echo state reservoirs with dendritic readouts for intelligent earthquake early warning systems
+            </div>
+
+            <div class="pub-authors">
+                Anushka Joshi, Pradeep Singh, Balasubramanian Raman
+            </div>
+
+            <div class="pub-venue">
+                <i>Computers and Electrical Engineering</i>, 2026
+            </div>
+
+            <div class="pub-buttons">
+                <a href="#">ABS</a>
+                <a href="#">DOI</a>
+                <a href="#">HTML</a>
+                <a href="#">PDF</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- 2025 -->
+
+<div class="pub-section">
+
+    <div class="pub-year">2025</div>
+
+    <div class="pub-row">
+
+        <div class="pub-image">
+            <img src="paper2.jpg" alt="Publication Image">
+        </div>
+
+        <div class="pub-content">
+
+            <div class="pub-title">
+                DFTQuake: Tripartite Fourier attention and dendrite network for real-time early prediction of earthquake magnitude and peak ground acceleration
+            </div>
+
+            <div class="pub-authors">
+                Anushka Joshi, Nithya Reddy Vedium, Balasubramanian Raman
+            </div>
+
+            <div class="pub-venue">
+                <i>Engineering Applications of Artificial Intelligence</i>, 2025
+            </div>
+
+            <div class="pub-buttons">
+                <a href="#">ABS</a>
+                <a href="#">DOI</a>
+                <a href="#">HTML</a>
+                <a href="#">PDF</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
